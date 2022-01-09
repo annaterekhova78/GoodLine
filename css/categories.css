@@ -1,0 +1,18 @@
+.categories {
+  width: calc(100% - 200px);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  background: #d3eeff;
+  border-radius: 24px;
+  margin: 40px 0;
+}
+
+.categories__link {
+  font-weight: bold;
+  color: #00554F;
+  text-decoration: underline;
+}

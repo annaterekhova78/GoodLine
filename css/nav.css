@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-right: 75px;
+  align-items: center;
+}
+
+.nav__link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #010911;
+}
+
+.nav__link:not(:last-child) {
+  margin-right: 100px;
+}

@@ -1,0 +1,53 @@
+.directions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.directions__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 40px;
+  color: #00554F;
+}
+
+.directions__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 70px;
+}
+
+.directions__card {
+  height: 204px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.directions__label {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f4f0f0;
+  background: rgba(0, 181, 167, 0.84);
+  padding: 4px;
+  margin: 0 0 10px 0;
+}
+
+.directions__card._russia {
+  background-image: url('../img/russia-bg.webp');
+}
+
+.directions__card._turkey {
+  background-image: url('../img/turkey-bg.webp');
+}
+
+.directions__card._switzerland {
+  background-image: url('../img/switzerland-bg.webp');
+}
